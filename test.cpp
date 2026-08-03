@@ -1,4 +1,5 @@
 #include <iostream> 
+#include <array>
 using namespace std;
 
 int main () {
@@ -209,9 +210,54 @@ int main () {
  //cout << " The Score: " << scores [2] << endl;
  //cout << " ASCII of A is: " <<(int) 'A' << endl;
  //cout << 'A' + 5;
- cout << (char)('d' + 10);
- 
+ //cout << (char)('d' + 10);
+ // lesson 41 
+ //const int rows =2;
+ //const int columns =2;
+ //int grades [rows][columns] = {
+ // {85 , 95} ,
+ // {70 , 90}
+ //};
+ //cout << grades[0][1] << endl;
+ //cout << grades[1][0] + grades[0][0] <<endl;
+ //lesson 42
+ // array < double , 3> mynumbers = {4.5 , 3.8 ,4.9};
+ // cout << mynumbers[1] << endl;
+  //cout << mynumbers.size() << endl;
+  //Lesson 43
+  //array < string ,3 > numas ={"Duha" ,"Jana" ,"Malak"};
+  //cout << numas.front() << endl;
+  // numas.fill("c++"); 
+ // cout << numas.front() << endl;
+ // Linking Lessons 41,42 and 43 Together
+ //const int rows =2;
+ //const int columns = 2;
+ //int studentGrades[rows][columns] ={
+ // {80 , 90} ,
+ // {75 , 85}
+ //};
+ //array <string , 2> studentNames = {"Duha" ,"Jana"};
+ //cout << studentNames.front() << " Total:"<< studentGrades[0][0] + studentGrades[0][1] << endl;
+ //cout << studentNames.back() << " Total:"<< studentGrades[1][0] + studentGrades[1][1] << endl;
+ //studentNames.fill("Top Student");
+ //cout << studentNames.front() << endl;
+  //int vals[] = {10, 20, 30};
 
+ // Write Your Code Here
+ //vals[0] = 100;
+ // vals[1] = 200;
+ // vals[2] = 300;
+
+ //cout << vals[0] << "\n"; // 100
+ //cout << vals[1] << "\n"; // 200
+ //cout << vals[2] << "\n"; // 300
+
+
+
+
+ // Needed Output
+ //"Middle Number Is The Largest"
+ //"600"
 
  return 0;
 
