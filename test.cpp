@@ -1,5 +1,6 @@
 #include <iostream> 
-#include <array>
+#include <array> 
+#include <string> 
 using namespace std;
 
 int main () {
@@ -251,6 +252,108 @@ int main () {
  //cout << vals[0] << "\n"; // 100
  //cout << vals[1] << "\n"; // 200
  //cout << vals[2] << "\n"; // 300
+
+ // Lesson 44 => Array Traning , Gusse THE Number Game 
+ //int numbers[4] ={5 ,10 ,15 ,20};
+ // int numberGusse;
+ //cout << " Enter Your Number " << endl;
+ //cin >> numberGusse;
+ // if (numberGusse == numbers[0] || numberGusse == numbers[1] || numberGusse == numbers[2] || numberGusse == numbers[3]) {
+ //   cout << " Brillient , You Gusse Right " << endl;
+ // } else {
+ //   cout << " My bad , Try again " << endl;
+ // }
+
+  // Do Not Edit The Next 3 Lines
+ // int index = 1;
+ // array<int, 3> oldNums = {10, 20, 30};
+  //array<int, 3> newNums;
+
+  // Write Your Code Here
+ // newNums[index - index] =oldNums[index + index]; // newNums[0] = newNums[2] -> 30
+ // newNums[index]         =oldNums[index];         // newNums[1] = newNums[1] -> 20
+ //   newNums[index + index] =oldNums[index - index]; // newNums[2] = newNums[0] -> 10
+
+  // Do Not Edit The Next 3 Lines
+ // cout << newNums[0] << "\n"; // 30
+ // cout << newNums[1] << "\n"; // 20
+ // cout << newNums[2] << "\n"; // 10
+
+ // Lesson 45 => What Is String?
+ //string coursName = "C++ Programming Language";
+ //cout << coursName[0] << endl;
+ //cout << coursName.front() << endl;
+ //cout << coursName.back() << endl;
+ //cout << coursName.length() << endl;
+
+ // Do Not Edit The Next 6 Lines
+ //int nums[] = {1, 2, 3, 5};
+ //int vals[] = {10, 20, 40, 30, 10, 60};
+ //int i1 = nums[3];
+ //int i2 = nums[0];
+ //int i3 = nums[1];
+ //int i4 = nums[2];
+
+ // Need To Get Ouput 150
+ // You Can Use Plus Operator Only
+
+ // Your Code Here
+ //cout << vals[i1] + vals[i3] + vals[i2] + vals[i4] << endl;
+
+ // Lesson 46 => Concatenating Strings
+ // Way 1
+ //string fname = "Hello";
+ // string lname  = "World";
+
+ //string fullName= fname + " " + lname;
+ //cout << fullName << endl;
+  // "Hello World"
+  
+  // Way 2
+ // string first_Name = "Duha";
+  //string last_Name = " Ahmed ";
+  //cout << first_Name.append(last_Name) << endl;
+
+ //string fName = "Elzero ";
+ //string mName = "Web ";
+ //string lName = "School";
+
+ // Way 1
+ //string fullName= fName + mName + " " + lName;
+ //cout << fullName << endl;
+ // Way 2
+ //cout << fName.append(mName).append(lName) << endl;
+ // Way 3
+ // cout << fName << mName << lName << endl;
+
+
+ // Output Needed
+ //Elzero Web School
+ //Elzero Web School
+ //Elzero Web School
+ // I combined lesson 44, 45 and 46 into one task
+ //int indices[] = {0 ,3 ,4};
+ //string part1 = "C++";
+ //string part2 = "is ";
+ //string part3 = "Awesome!";
+ 
+ //string fullText = part1 + part2 + part3;
+ //cout << fullText.length() << endl;
+ 
+ //cout << fullText[indices[0]] << endl;
+ //cout << fullText[indices[1]] << endl;
+ //cout << fullText[indices[2]] << endl;
+
+
+
+  
+
+
+
+
+
+ 
+
 
 
 
