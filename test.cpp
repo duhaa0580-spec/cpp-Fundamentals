@@ -344,6 +344,22 @@ int main () {
  //cout << fullText[indices[1]] << endl;
  //cout << fullText[indices[2]] << endl;
 
+  //int number =5;
+  // lesson 47 
+ // cout << "=== Multiplication Table of 5 ===" << endl;
+
+ //   for (int i = 1; i <= 10; i++) {
+ //     cout << " number " << " x " << i << " = " << (number * i) << endl;
+ //   }
+ // lesson 48 & 49 
+ //int nums[] = {100, 200, 300, 400, 500, 600};
+ //int numsSize = sizeof(nums) / sizeof(nums[0]);
+ //for (int i = 5; i > 0; i--) {
+ //   cout << nums[i] << endl;
+ //}
+    
+
+
 
 
   
