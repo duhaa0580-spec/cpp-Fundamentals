@@ -357,16 +357,116 @@ int main () {
  //for (int i = 5; i > 0; i--) {
  //   cout << nums[i] << endl;
  //}
-    
+ // Lessson 50 
+ //int i;
+ //int sum = 0;
+ //cout <<" Enter a positive number (0 or negative to stop):";
+ //cin >> i;
 
+ //while (i > 0) {
+ // sum += i;
 
+ // cout << "Enter next number:";
+ // cin >> i;
 
+ // }
 
-  
+ //cout << "Total Sum =" << sum << endl;
+ //int index = 10;
+ //int jump = 2;
 
+ //for (;;)
+ //{
+  // Write Your Code Here
+ // cout << index << endl;
+ // index -= jump;
 
+ // if (index == jump) {
+ //   break;
+ // }
+ //}
 
+ // Output Needed
+ //10
+ //8
+ //6
+ //4
 
+ // Lesson 51
+ //int age =15;
+ //int targetAge =18;
+
+ //while (age < targetAge ) {
+ // cout << " Age is " <<  age << " - Not Adult Yet " << endl;
+ // age++;
+ //}
+ //cout << " Now You Are Adult!" << endl;
+
+ //for (int i =1; i <= 102; i++ ) {
+ // if (i < 10) {
+ //   cout <<"00" << i << endl;
+ // }
+ // else if (i < 100){
+ //   cout << "0" << i << endl;
+ // } else {
+ //   cout << i << endl;
+ // }
+ //}
+ // Output Needed
+ //001
+ //002
+ //003
+ //004
+ //005
+ //006
+ //007
+ //008
+ //009
+ //010
+ //011
+ //012
+ //013
+ //014
+ //015
+ //016
+ //017
+ //018
+ //019
+ //020
+ //100
+ //101
+ //102
+ // Lesson 52
+ //int num = 0;
+// do {
+ // cout << "Enter a Number Between 0 and 10:" << endl;
+ // cin >> num;
+ //} while (num > 10 || num < 1 );
+ // cout << "Thanks! You entered:" << num << endl;
+ //for (int i = 0; i <= 1000; i += 100) // Do Not Edit This Line
+// {
+  // Edit What You Need And Add Your Code
+ // if (i == 0 || i == 500 || i == 1000) {
+ //   continue;
+ // }
+ // cout << i << "\n";
+ // }
+ // Output Needed
+ //100
+ //200
+ //300
+ //400
+ //600
+ //700
+ //800
+ //900
+ // Nested Loops
+ //for (int hour =1; hour <= 12; hour++) {
+ // for (int minute = 0; minute <= 60; minute++) {
+  // for (int second = 0; second < 60; second++) {
+ //    cout << hour << ":" << minute << ":" << second << endl;
+ // } }
+ //} 
 
  
 
