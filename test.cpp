@@ -467,15 +467,98 @@ int main () {
  //    cout << hour << ":" << minute << ":" << second << endl;
  // } }
  //} 
+ // Lesson 53
+// int nums[] ={10, 20, 30, 40, 50};
+ //for( int i = 0; i < 5; i++){
+ // if (nums[i] == 50) {
+ //   break;
+ // }
+ // if (nums[i] == 20){
+ //   continue;
+ // }
+ // cout << nums[i] << endl;
+  //cout << "After" << endl;
+ //}
+ // Lesson 54 Loop Training Create 
+ // Count Positive & Even Numbers Only 
+ // int result = 0;
+ //int nums[] ={10, 20, -20, 30, -30, 40};
+ // int numsSize = size(nums);
+  // for (int i = 0; i < numsSize; i++){
+  //  if(nums[i] > 0 && nums[i] % 2 == 0){
+  //    result += nums[i];
+  //  }
+  // }
 
- 
+ //cout <<"Result Is" << endl;
+ // Gusse The Number 
+ // int gusseNumber = 7;
+ // int gusseTries = 0;
+ // int choose;
+ // cout << "Piease Gusse The Number Betwee 1 & 10" << endl;
 
+ // while(true)
+ // {
+ //  cin >> choose;
+ //  if(choose == gusseNumber){
+ //    cout << "Great, Correct Guess" << endl;
+ //   break;
+ // } else {
+ //   cout << "Sorry, Wrong Gusse" << endl;
+ //   gusseTries++;
+ // }
+ // if (gusseTries == 3){
+ //   cout << "Sorry, You Failed. The Number Is:" << gusseNumber << endl;
+  //  break;
+ // }
+ //}
+ // Reversed Elements From User
+ // int vals[5];
+ // int inp;
+ // cout <<"Type 5 Number Between To Reverse" << endl;
+  
+ // {0, 1, 2, 3, 4}
 
+ // for (int i = 4; i > -1; i--)
+  //{
+ //  cin >> inp;
+ //  vals[i] = inp;
+ //}
 
+ // cout << "======================" << endl;
 
-
- 
-
+ // for (int i = 0; i < 5; i++) 
+ // {
+ // cout << vals[i] << endl;
+ // }
+ // Lesson 55 Function Introduction
+ //void sayHello();
+ //{
+ // cout << "Hello Duha."<< endl;
+ //}
+ // Lesson 56 & 57 Function With parameter
+ // void sayHello(string name, string type = "") {
+  //  if (type == "Male") {
+ //     cout << "Hello Mr. " << name << endl;
+  //  } else if ( type == "Female") {
+  //    cout << "Hello Miss. " << name << endl;
+ //   } else {
+  //    cout << "Hello " << name << endl;
+ //   }
+    
+ // } 
+ // the sayHello function shouid be outside the main function
+  
+ // sayHello("Osama", "Male");
+ // sayHello("Duha", "Female");
+ // sayHello("Jaha");
+ // Lesson 58 Function Default Parameters 
+ // void calculatePoints(int level, int bonus = 10) {
+ // cout << "Result Is " << "= " << level * bonus  << endl;
+ // }
+ // the calculatePoints function shouid be outside the main function
+ // calculatePoints(5, 20);
+ //calculatePoints(5);
  return 0;
 
 
